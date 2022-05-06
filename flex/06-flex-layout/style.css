@@ -25,3 +25,37 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+/* solution */
+body {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color:rgb(129, 125, 125);
+}
+.left-links, .right-links {
+  display: flex;
+  list-style-type: none;
+  gap:20px;
+}
+.right-links {
+  margin-left: auto;
+  margin-right: 40px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.footer {
+  display: flex;
+  background-color: #eeeeee;
+}
+button {
+  padding: 8px 16px;
+}
